@@ -1,0 +1,70 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    &__nav{
+        display: flex;
+        align-items: center;
+        &__list{
+            display: flex;
+            gap: 50px;
+            &--weight{
+                font-weight: bold;
+            }
+        }
+    }
+    &__icon{
+        display: flex;
+        gap: 10px;
+        &__one{
+            display: flex;;
+            align-items: center;
+            &__list{
+                display: flex;
+                gap: 20px;
+                font-size: 20px;
+                .fa-bag-shopping{
+                    position: relative;
+                    span{
+                        position: absolute;
+                        background-color: $color-two;
+                        width: 20px; /* Largeur */
+                        height: 20px;
+                        border-radius: 50%;
+                        color: white;
+                        font-size: 12px;
+                        bottom: 11px;
+                        left: 10px;
+                        display: flex; 
+                        justify-content: center; 
+                        align-items: center;
+                    }
+                }
+            }
+        }
+        &__two{
+            display: flex;
+            align-items: center;
+            border-right: solid #DDDDDD 2px;
+            border-left: solid #DDDDDD 2px;
+            margin: 15px 10px;
+            padding: 5px 10px;
+            .fa-solid{
+                font-size: 20px;
+            }
+        }
+        &__three{
+            display: flex;
+            align-items: center;
+            background-color: $primary-color;
+            padding: 0 20px;
+            margin: 5px;
+            border-radius: 10px;
+            &--white{
+                color: white;
+                font-weight: bold;
+            }
+        }
+    }
+}
