@@ -14,64 +14,42 @@
 </head>
 <body class="body-container">
     <header class="header">
-        <div class="header__logo">
-            <img src="assets/images/logo.png" alt="Logo Groce">
-        </div>
-        <div class="header__nav">
-            <ul class="header__nav__list">
-                <li class="header__icon__one__list--weight"><a href="#">Home</a></li>
-                <li><a href="#">Categories</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">Blog</a></li>
-            </ul>
-        </div>
-        <div class="header__icon">
-            <div class="header__icon__one">
-                <ul class="header__icon__one__list"> 
-                    <li><i class="fa-solid fa-code-merge"></i></li>
-                    <li><i class="fa-regular fa-heart"></i></li>
-                    <li>
-                        <i class="fa-solid fa-bag-shopping">
-                            <span>2</span>
-                        </i>
-                    </li>
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="assets/images/logo.png" alt="logo groce" class="header__logo__image">
+            </div>
+            <nav  class="header__nav">
+                <i class="fa-solid fa-bars header__nav__icon header__nav__icon--open"></i>
+                <i class="fa-solid fa-xmark header__nav__icon header__nav__icon--close"></i>
+                <ul class="header__nav__list">
+                    <li class="header__nav__item"><a href="#" class="header__nav__link--active">Home</a></li>
+                    <li class="header__nav__item"><a href="#" class="header__nav__link">Categories</a></li>
+                    <li class="header__nav__item"><a href="#" class="header__nav__link">Contact</a></li>
+                    <li class="header__nav__item"><a href="#" class="header__nav__link">Blog</a></li>
+                    <li class="header__nav__item"><a href="#" class="header__nav__link">Service</a></li>
                 </ul>
+            </nav>
+        </div>
+        <div class="header__actions">
+            <div class="header__actions__icons">
+                <i class="fa-regular fa-heart header__actions__icon"></i>
+                <i class="fa-solid fa-bag-shopping header__actions__icon">
+                    <span class="header__actions__badge">2</span>
+                </i>
             </div>
-            <div class="header__icon__two">
-                <i class="fa-solid fa-magnifying-glass"></i>
+            <div class="header__actions__search">
+                <i class="fa-solid fa-magnifying-glass header__actions__icon"></i>
             </div>
-            <div class="header__icon__three">
-                <a href="#" class="header__icon__three--white">SIGN IN</a>
+            <div class="header__actions__auth">
+                <i class="fa-solid fa-right-to-bracket header__actions__auth__icon"></i>
+                <a href="#" class="header__actions__auth__link">SIGN IN</a>
             </div>
         </div>
     </header>
 
     <main class="main-container">
-        <!--
-        <section class="presentation">
-            <div class="presentation__text">
-                <div class="presentation__text__title">
-                    <h1 class="presentation__text__title--green">ORGANIC <span>FOOD</span></h1>
-                    <h2 class="presentation__text__title--grey">100% Healthy & Tasty</h2>
-                </div>
-                <div class="presentation__text__description">
-                    <p>
-                        A place where help you to buy fresh grocery.
-                        Tasty and <br/>100% healthy 
-                    </p>
-                </div>
-                <div class="presentation__text__buttons">
-                    <a href="#" class="presentation__text__buttons--orange">How to Order</a>
-                    <a href="#" class="presentation__text__buttons--black">Get Sale</a>
-                </div>
-            </div>
-            <div class="presentation__img">
-                <div class="presentation__img__content">
-                    <img class="presentation__img__content__principal" src="assets/images/plat.png" alt="Photo Salade">
-                    <img class="presentation__img__content__second" src="assets/images/ail.png" alt="Photo ail">
-                </div>
-            </div>
-        </section>-->
-    </main>—
+        
+
+    </main>
 </body>
 </html>
